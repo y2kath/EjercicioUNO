@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO 1</title>
+    <script src="ej1.js"></script>
 </head>
-<body>
-    <header>
-        <h1>EJERCICIO 1</h1>
-    </header>
-    <section>
-        <h2>si</h2>
-    </section>
+
+<body class="cuerpo-ej1">
+    <div class="container">
+        <label for="mt">
+            <h1>Monto a Invertir</h1>
+        </label>
+        <br>
+        <input class="button" 
+            type="text" 
+            id="mt" 
+            name="mt"
+            placeholder="Ingrese el número">
+        <br>
+        <button class="button" 
+        type="button" onclick="calcular()" 
+        id="button" name="button">
+            Calcular
+        </button>
+        <br>
+        <div class="content">
+        <span  id="psj"></span>
+        <span id="final"></span>
+    </div>
+    </div>
 </body>
-</html>
